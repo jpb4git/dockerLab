@@ -1,0 +1,13 @@
+version: '3'
+
+# service contient des containers 
+services:
+
+  myapp:
+
+   # image: myapp
+   build : . 
+
+   ports:  
+    - 5000:80
+
